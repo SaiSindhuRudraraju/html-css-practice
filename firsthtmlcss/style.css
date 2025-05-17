@@ -8,6 +8,14 @@ h1{
     border-width: 3px;
     border-color: hsl(283, 82%, 24%);
     border-radius: 20px;
+
+    text-shadow: 3px 10px 5px red, -3px -3px 5px black;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 3px 3px 5px black;
 }
 p{
     color: white;

@@ -1,5 +1,7 @@
 body{
     background-color: slategray;
+
+    margin: 0px;
 }
 h1{
     color: white;
@@ -11,11 +13,23 @@ h1{
 
     text-shadow: 3px 10px 5px red, -3px -3px 5px black;
 }
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
 #box1{
-    width: 100px;
-    height: 100px;
     background-color: white;
     box-shadow: 3px 3px 5px black;
+    margin: 50px;
+    margin-left: auto;
+}
+#box2{
+    background-color: lightblue;
+    box-shadow: 3px 3px 5px black;
+    margin: 50px;
+    margin: auto;
 }
 p{
     color: white;

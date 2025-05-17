@@ -1,7 +1,25 @@
+/*
 div{
     border: 2px solid;
     height: 75px;
     overflow: auto;
     width: 50%;
     display: block;
+}
+*/
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }

@@ -2,6 +2,8 @@ body{
     background-color: slategray;
 
     margin: 0px;
+    border: 3px solid;
+    display: flow-root;
 }
 h1{
     color: white;
@@ -59,4 +61,14 @@ p{
 }
 .even{
     font-family: cursive;
+}
+
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+
+#img2{
+    float: right;
+    margin-left: 10px;
 }

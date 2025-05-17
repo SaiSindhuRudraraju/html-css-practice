@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+#p1{
+    color: red;
+}
+#p2{
+    color: orange;
+}
+#p3{
+    color: yellow;
+}
+#p4{
+    color: green;
+}
+.odd{
+    font-family: sans-serif;
+}
+.even{
+    font-family: cursive;
+}

@@ -1,23 +1,36 @@
 body{
-    background-color: black;
+    background-color: slategray;
 }
 h1{
     color: white;
+    font-family: Verdana, sans-serif;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hsl(283, 82%, 24%);
+    border-radius: 20px;
 }
 p{
     color: white;
 }
 #p1{
-    color: red;
+    color: tomato;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+
+    border-bottom: 3px solid red;
+    border-top: 3px solid yellow;
+    border-left: 3px solid green;
+    border-right: 3px solid blue;
 }
 #p2{
-    color: orange;
+    color: rgb(102, 222, 255);
 }
 #p3{
-    color: yellow;
+    color: #59ff5f;
 }
 #p4{
-    color: green;
+    color: hsl(283, 100%, 64%);
 }
 .odd{
     font-family: sans-serif;

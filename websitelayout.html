@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic HTML Layout</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+        }
+
+        section {
+            flex: 3;
+            margin-right: 20px;
+        }
+
+        article {
+            background-color: #f4f4f4;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #e0e0e0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                flex-direction: column;
+            }
+
+            section {
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Blog</h1>
+        <p>Learning Semantic HTML</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h2>What is HTML5?</h2>
+                <p>HTML5 is the latest version of the HyperText Markup Language, which defines the structure of web content.</p>
+            </article>
+
+            <article>
+                <h2>Why Semantic Tags Matter</h2>
+                <p>Semantic tags help browsers and developers understand the structure and meaning of the content on a page.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">HTML Tutorial</a></li>
+                <li><a href="#">CSS Basics</a></li>
+                <li><a href="#">JavaScript Guide</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        &copy; 2025 My Semantic Website. All rights reserved.
+    </footer>
+
+</body>
+</html>

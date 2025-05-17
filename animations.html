@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Animation</title>
+  <style>
+    img {
+      width: 300px;
+      height: auto;
+      animation: spin 5s linear infinite;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="/Images/dog.jpeg" alt="Spinning Dog">
+
+</body>
+</html>

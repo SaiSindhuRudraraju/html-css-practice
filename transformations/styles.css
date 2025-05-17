@@ -1,0 +1,37 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: coral;
+    display: inline-block;
+    transition: transform 0.4s ease;
+}
+
+/* Rotate */
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+/* Scale */
+.scale:hover {
+    transform: scale(1.5);
+}
+
+/* Translate */
+.translate:hover {
+    transform: translateX(50px);
+}
+
+/* Skew */
+.skew:hover {
+    transform: skew(20deg, 10deg);
+}
+
+/* Multiple Transforms */
+.combo:hover {
+    transform: rotate(15deg) scale(1.2) translateX(20px);
+}
+
+img{
+    transform: rotate(10deg) scale(1.1) translateX(20px);
+}
